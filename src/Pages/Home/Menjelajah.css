@@ -1,0 +1,231 @@
+/* Content */
+.content{
+    margin-top: 43px;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    margin-bottom: 110px;
+}
+.leftSide{
+    width: 830px;
+}
+.searchDestination input{
+    width: 420px;
+    padding: 24px 0;
+    padding-left: 24px;
+    border:none;
+    outline: none;
+}
+.searchDestination button{
+    padding:22px 32px;
+    color: white;
+    background-color:#161C2D ;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin-bottom: 104px;
+}
+.leftSide h1{
+    font-size :60px ;
+    font-weight: 700;
+    line-height: 88%;
+    letter-spacing: -2%;
+    color: #2257DF;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+.titleDesc{
+    margin-bottom: 52px;
+    width: 829px;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+}
+.highlightBlog{
+    display: flex;
+    gap: 76px;
+}
+.socialMedia{
+    display: flex;
+    gap: 18px;
+    margin-top: 86px;
+}
+.socialMedia a{
+    font-size: 32px;
+    color: #4E5568;
+}
+/* Content */
+/* Explore */
+.explore h3{
+    margin-bottom: 42px;
+}
+.explore p{
+    width: 772px;
+    letter-spacing: 0.15%;
+    color: #4E5568;
+}
+.exploreContent{
+    display: flex;
+    gap: 72px;
+    margin-top: 72px;
+}
+.exploreContent p{
+    color: #4E5568;
+    font-weight: 400;
+    font-size: 16px;
+}
+/* Explore */
+/* Feedback */
+.feedbackContainer{
+    margin: 100px -120px ;
+    background-color: #F7F8FB;
+    padding: 52px 120px;
+}
+
+.feedbackContainer h1{
+    margin-bottom: 52px;
+}
+
+.feedback{
+    display: flex;
+    gap: 72px;
+}
+/* Feedback */
+
+.destinationTitle{
+    margin-bottom: 52px;
+}
+.communityTitle{
+    margin-top: 42px;
+}
+.destinationContent{
+    display: flex;
+    gap: 36px;
+}
+.communityTitle p{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.15%;
+    width: 772px;
+    color: #4E5568;
+    font-weight: 600;
+    margin-top: 42px;
+}
+.communityContent{
+    display: flex;
+    gap: 48px;
+    margin-top: 72px;
+}
+.cardComunity{
+    border: 2px solid #F7F8FB;
+    padding: 32px 24px;
+    width: 384px;
+    border-radius: 4px;
+}
+.cardComunity svg{
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+
+
+@media only screen and (max-width:672px){
+    .leftSide{
+        width: 333px;
+    }
+    .leftSide h5{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .leftSide h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .leftSide p{
+        font-size: 13px;
+        font-weight: 400;
+        text-align: center;
+    }
+    aside{
+        display: none;
+    }
+    .highlightBlog{
+        flex-direction: column;
+    }
+    .titleDesc{
+        width: 333px;
+        line-height: 18px;
+        letter-spacing: -0.08px;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    .searchDestination{
+        width: 356px;
+    }
+    .searchDestination input{
+        width: 210px;
+        padding: 16px 0;
+        padding-left: 16px;
+        border:none;
+        outline: none;
+    }
+    .searchDestination button{
+        padding:16px 18px;
+        color: white;
+        background-color:#161C2D ;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+        margin-bottom: 104px;
+    }
+    .socialMedia{
+        justify-content: center;
+    }
+    .explore{
+        width: 333px;
+        text-align: center;
+    }
+    .explore p {
+        width: 333px;
+        
+    }
+    .exploreContent *{
+        width: 67%;
+    }
+    .exploreContent{
+        flex-direction: column;
+    }
+    
+    .feedback *{
+        width: 67%;
+    }
+    .feedback{
+        flex-direction: column;
+    }
+    .communityTitle{
+        margin-top: 36px;
+    }
+    .communityTitle h1{
+        font-size: 22px;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    .communityTitle p{
+        text-align: center;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: -0.08px;
+        width: 333px;
+        font-size: 13px;
+        margin-top: 18px;
+    }
+    .cardComunity{
+        width: 320px;
+        padding: 20px 16px;
+    }
+    .cardComunity svg{
+        font-size: 24px;
+    }
+    .communityContent{
+        flex-direction: column;
+    }
+    
+    
+}
