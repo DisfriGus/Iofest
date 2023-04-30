@@ -37,4 +37,7 @@
     @apply font-sans font-bold text-[14px] leading-[22px] tracking-[0.25px] text-[#161C2D]
   }
 
+  ul a.active{
+    color: #2257DF ;
+  }
 }
