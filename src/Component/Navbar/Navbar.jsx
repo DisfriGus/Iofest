@@ -6,15 +6,17 @@ import Logo from  "../../Assets/_logo/_logo/_logo_1x.webp"
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between'>
+    <div className='flex fixed z-10 bg-white w-full items-center justify-between px-20 max-sm:px-4 py-5'>
         <div className='flex max-sm:w-full max-sm:relative max-sm:items-center max-sm:justify-center'>
             <Link to='/' className=''>
-                <img src={Logo} alt="" />
+                <img src={Logo} className='max-sm:h-8 h-10' alt="" />
             </Link>
             <button className='text-[24px] absolute right-0  sm:hidden '><TbMenu/></button>
         </div>
         <ul className='flex gap-6 max-sm:hidden'>
-            <NavLink  to='/' className='subtitle1 text-[#4E5568] font-normal hover:text-[#2257DF] active:text-[#2257DF]'>Home</NavLink>
+            <NavLink  to='/' className={({isActive}) => {
+                return `subtitle1 ${isActive ? "text-[#2257DF] font-bold" : "text-[#4E5568] font-normal "}`;
+            }}>Home</NavLink>
             <NavLink  to='/Exploration' className='subtitle1 text-[#4E5568] font-normal hover:text-[#2257DF]'>Exploration</NavLink>
             <NavLink  to='/Recomendation' className='subtitle1 text-[#4E5568] font-normal hover:text-[#2257DF]'>Recomendation</NavLink>
             <NavLink  to='/Blog' className='subtitle1 text-[#4E5568] font-normal hover:text-[#2257DF]'>Blog</NavLink>

@@ -9,11 +9,13 @@ import {
   IconBrandInstagram,
   IconBrandReddit,
 } from "@tabler/icons-react";
+import Hero from './components/Hero';
 
 const Menjelajah = () => {
   return (
     <div>
       <Navbar />
+      <Hero />
       <Section
         useElement
         title="Explore Different Cultures Across the Globe 🌎"
