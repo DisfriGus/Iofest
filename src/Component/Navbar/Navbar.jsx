@@ -11,12 +11,12 @@ const Navbar = () => {
             </Link>
         </div>
         <ul className='flex gap-6'>
-            <Link to='/Exploration'>Exploration</Link>
-            <Link to='/Recomendation'>Recomendation</Link>
-            <Link to='/About'>About</Link>
+            <Link to='/Exploration' className='subtitle1 text-[#4E5568] font-normal hover:text-[#2257DF]'>Exploration</Link>
+            <Link to='/Recomendation' className='subtitle1 text-[#4E5568] font-normal hover:text-[#2257DF]'>Recomendation</Link>
+            <Link to='/About' className='subtitle1 text-[#4E5568] font-normal hover:text-[#2257DF]'>About</Link>
         </ul>
         <div>
-            <button className='flex items-center'>Get Started <HiOutlineArrowUpRight/></button>
+            <button className='flex items-center gap-[10px] px-6 py-3 border bg-[#161C2D] text-white rounded-[27px]'>Get Started <HiOutlineArrowUpRight/></button>
         </div>
     </div>
   )
