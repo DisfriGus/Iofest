@@ -10,6 +10,7 @@ import {
   IconBrandReddit,
 } from "@tabler/icons-react";
 import Hero from './components/Hero';
+import Footer from "../../Component/Footer/Footer";
 
 const Menjelajah = () => {
   return (
@@ -102,6 +103,7 @@ const Menjelajah = () => {
           max={40}
         />
       </Section>
+      <Footer/>
     </div>
   );
 };
