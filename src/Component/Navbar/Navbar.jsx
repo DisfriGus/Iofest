@@ -11,7 +11,7 @@ const Navbar = () => {
             </Link>
         </div>
         <ul className='flex gap-6'>
-            <Link to='/Exploration'>Exploration</Link>
+            <Link to='/Exploration'>Exploration ASASSA</Link>
             <Link to='/Recomendation'>Recomendation</Link>
             <Link to='/About'>About</Link>
         </ul>
