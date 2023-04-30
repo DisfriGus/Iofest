@@ -17,7 +17,7 @@ const Exploration = () => {
               </div>
           </div>
         </Section>
-        <Section>
+        <Section >
           
         </Section>
       </div>
