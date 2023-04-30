@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from '../../Component/Navbar/Navbar'
 
-const About = () => {
+const Blog = () => {
   return (
     <div>
-      <Navbar/>
+        <Navbar/>
     </div>
   )
 }
 
-export default About
+export default Blog
