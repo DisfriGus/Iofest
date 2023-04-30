@@ -8,9 +8,9 @@ const Section = (props) => {
     <div
       className={`flex flex-col relative p-20 max-sm:px-10 ${className}`}
     >
-      <div className={`flex items-center ${useArrows && "justify-between"}`}>
+      <div className={`flex items-center ${useArrows && "justify-between max-sm:flex-col"}`}>
         <div className="flex flex-col">
-          <h1 className="heading3 max-sm:title2 mb-5 max-sm:text-center">
+          <h1 className={`heading3 max-sm:title2 mb-5 max-sm:text-center ${!description && 'mb-10'}`}>
             {title}
           </h1>
           {useElement && (
@@ -20,13 +20,13 @@ const Section = (props) => {
             />
           )}
           {description && (
-            <p className="subheading mb-10 max-w-[500px] max-sm:text-center">
+            <p className="subheading mb-10 max-sm:mb-2 max-w-[500px] max-sm:text-center">
               {description}
             </p>
           )}
         </div>
         {useArrows && (
-          <div className="flex items-center gap-4">
+          <div className="flex max-sm:mb-10 items-center gap-4">
             <button className="w-10 h-10 rounded-full">
               <IconArrowLeft size={20} color="#161C2D" />
             </button>
@@ -36,7 +36,7 @@ const Section = (props) => {
           </div>
         )}
       </div>
-      <div className={`flex max-sm:flex-col w-full items-center max-sm:gap-6 gap-10 ${useArrows && 'overflow-x-auto'}`}>
+      <div className={`flex ${!useArrows && 'max-sm:flex-col'} w-full items-center gap-6 ${useArrows && 'overflow-x-auto'}`}>
         {children}
       </div>
     </div>
