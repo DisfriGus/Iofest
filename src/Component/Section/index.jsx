@@ -36,7 +36,7 @@ const Section = (props) => {
           </div>
         )}
       </div>
-      <div className={`flex ${!useArrows && 'max-sm:flex-col'} w-full items-center gap-6 ${useArrows && 'overflow-x-auto'}`}>
+      <div className={`flex ${!useArrows && 'max-sm:flex-col'} w-full items-center gap-10 ${useArrows && 'overflow-x-auto'}`}>
         {children}
       </div>
     </div>

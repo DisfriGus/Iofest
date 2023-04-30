@@ -2,8 +2,8 @@ import React from "react";
 import Glamping from "../../../Assets/_background/glamping.svg";
 const Hero = () => {
   return (
-    <div className="flex pt-28 px-20 items-center">
-      <div className="flex flex-col max-w-[700px]">
+    <div className="flex pt-28 px-20 w-full gap-10 items-center">
+      <div className="flex flex-col w-full">
         <h5 className="heading5 mb-2">Welcome to Menjelajah 👋</h5>
         <h1 className="display mb-10 text-[#2257DF]">
           Title Text Goes Here And Kwak Kwak Gwak
@@ -18,7 +18,7 @@ const Hero = () => {
             <button className="px-5 py-4 subtitle w-[300px] bg-black text-white rounded-tr-md rounded-br-md">Find Destination</button>
         </div>  
       </div>
-      <img src={Glamping} className=" h-[612px]" />
+      <img src={Glamping} className=" h-[712px]" />
     </div>
   );
 };
