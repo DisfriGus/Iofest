@@ -1,4 +1,3 @@
-import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Menjelajah from './Pages/Home/Menjelajah';
 import Exploration from './Pages/Exploration/Exploration';

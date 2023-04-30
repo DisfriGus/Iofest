@@ -4,7 +4,7 @@ import Navbar from '../../Component/Navbar/Navbar'
 
 const Menjelajah = () => {
   return (
-    <div className=''>
+    <div className='py-[38px] px-[120px]'>
         <Navbar/>
     </div>
   )

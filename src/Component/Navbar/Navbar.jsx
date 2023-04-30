@@ -1,21 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import {HiOutlineArrowUpRight} from 'react-icons/hi2'
+import Logo from  "../../Assets/_logo/_logo/_logo_1x.webp"
 const Navbar = () => {
   return (
-    <div className=''>
+    <div className='flex items-center justify-between'>
         <div>
             <Link to='/'>
-                Logo
+                <img src={Logo} alt="" />
             </Link>
         </div>
-        <ul className=''>
+        <ul className='flex gap-6'>
             <Link to='/Exploration'>Exploration</Link>
             <Link to='/Recomendation'>Recomendation</Link>
             <Link to='/About'>About</Link>
         </ul>
         <div>
-            <button className=''>Get Started <HiOutlineArrowUpRight/></button>
+            <button className='flex items-center'>Get Started <HiOutlineArrowUpRight/></button>
         </div>
     </div>
   )

@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@layer components{
+  .display{
+    @apply  font-sans font-bold text-[60px] leading-[72px] tracking-[-0.02em] text-[#161C2D]
+  }
+  .heading1{
+    @apply font-sans font-bold text-[40px] leading-[56px] tracking-[-0.005em] text-[#161C2D]
+  }
+  .heading2{
+    @apply font-sans font-bold text-[36px] leading-[44px] tracking-[-0.005em] text-[#161C2D]
+  }
+  .heading3{
+    @apply font-sans font-bold text-[32px] leading-[32px]  text-[#161C2D]
+  }
+  .heading4{
+    @apply font-sans font-bold text-[28px] leading-[36px] tracking-[0.0025em] text-[#161C2D]
+  }
+  .heading5{
+    @apply font-sans font-bold text-[24px] leading-[32px]  text-[#161C2D]
+  }
+  .subHeading{
+    @apply font-sans font-bold text-[20px] leading-[28px] tracking-[0.0015em] text-[#161C2D]
+  }
+  .subtitle1{
+    @apply font-sans font-bold text-[16px] leading-[24px] tracking-[0.15px] text-[#161C2D]
+  }
+  .subtitle2{
+    @apply font-sans font-bold text-[14px] leading-[22px] tracking-[0.1px] text-[#161C2D]
+  }
+  .body1{
+    @apply font-sans font-bold text-[14px] leading-[24px] tracking-[0.5px] text-[#161C2D]
+  }
+  .body2{
+    @apply font-sans font-bold text-[14px] leading-[22px] tracking-[0.25px] text-[#161C2D]
+  }
+
+}
