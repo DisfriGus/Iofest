@@ -1,5 +1,6 @@
 import React from "react";
 import Glamping from "../../../Assets/_background/glamping.svg";
+import Card from "../../../Component/Card";
 const Hero = () => {
   return (
     <div className="flex pt-28 px-20 w-full gap-10 items-center">
@@ -13,10 +14,14 @@ const Hero = () => {
           augue in malesuada vitae ante erat. Donec gravida malesuada mus
           condimentum risus fusce.
         </p>
-        <div className="flex max-w-[600px]">
-            <input placeholder="Discover your next escape..." className="w-full bg-[#F7F8FB] rounded-tl-md rounded-bl-md p-5" />
+        <div className="flex max-w-[600px] mb-10">
+            <input placeholder="Discover your next escape..." className="w-full bg-[#F7F8FB] rounded-tl-md rounded-bl-md p-5 outline-none" />
             <button className="px-5 py-4 subtitle w-[300px] bg-black text-white rounded-tr-md rounded-br-md">Find Destination</button>
-        </div>  
+        </div>
+        <div className="flex w-full gap-10">
+            <Card type="hero"/>
+            <Card type="hero"/>
+        </div>
       </div>
       <img src={Glamping} className=" h-[712px]" />
     </div>

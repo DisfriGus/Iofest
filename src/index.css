@@ -34,7 +34,7 @@
     @apply font-sans font-normal text-[16px] leading-[28px] tracking-[0.15px] text-[#161C2D]  
   }
   .body1{
-    @apply font-sans font-bold text-[14px] leading-[24px] tracking-[0.5px] text-[#161C2D]
+    @apply font-sans font-normal text-[14px] leading-[24px] tracking-[0.5px] text-[#161C2D]
   }
   .body2{
     @apply font-sans font-bold text-[14px] leading-[22px] tracking-[0.25px] text-[#161C2D]

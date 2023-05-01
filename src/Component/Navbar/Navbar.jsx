@@ -17,10 +17,18 @@ const Navbar = () => {
             <NavLink  to='/' className={({isActive}) => {
                 return `subtitle1 ${isActive ? "text-[#2257DF] font-bold" : "text-[#4E5568] font-normal "}`;
             }}>Home</NavLink>
-            <NavLink  to='/Exploration' className='subtitle1 text-[#4E5568] font-normal hover:text-[#2257DF]'>Exploration</NavLink>
-            <NavLink  to='/Recomendation' className='subtitle1 text-[#4E5568] font-normal hover:text-[#2257DF]'>Recomendation</NavLink>
-            <NavLink  to='/Blog' className='subtitle1 text-[#4E5568] font-normal hover:text-[#2257DF]'>Blog</NavLink>
-            <NavLink  to='/About' className='subtitle1 text-[#4E5568] font-normal hover:text-[#2257DF]'>About</NavLink>
+            <NavLink  to='/Exploration' className={({isActive}) => {
+                return `subtitle1 ${isActive ? "text-[#2257DF] font-bold" : "text-[#4E5568] font-normal "}`;
+            }}>Exploration</NavLink>
+            <NavLink  to='/Recomendation' className={({isActive}) => {
+                return `subtitle1 ${isActive ? "text-[#2257DF] font-bold" : "text-[#4E5568] font-normal "}`;
+            }}>Recomendation</NavLink>
+            <NavLink  to='/Blog' className={({isActive}) => {
+                return `subtitle1 ${isActive ? "text-[#2257DF] font-bold" : "text-[#4E5568] font-normal "}`;
+            }}>Blog</NavLink>
+            <NavLink  to='/About' className={({isActive}) => {
+                return `subtitle1 ${isActive ? "text-[#2257DF] font-bold" : "text-[#4E5568] font-normal "}`;
+            }}>About</NavLink>
         </ul>
         <div>
             <button className='flex items-center gap-[10px] px-6 py-3 border bg-[#161C2D] text-white rounded-[27px] max-sm:hidden'>Get Started <HiOutlineArrowUpRight/></button>

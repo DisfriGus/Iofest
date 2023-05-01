@@ -9,8 +9,12 @@ import {
   IconBrandInstagram,
   IconBrandReddit,
 } from "@tabler/icons-react";
+<<<<<<< HEAD
 import Hero from './components/Hero';
 import Footer from "../../Component/Footer/Footer";
+=======
+import Hero from "./components/Hero";
+>>>>>>> d4237bd (add  some components)
 
 const Menjelajah = () => {
   return (
@@ -54,24 +58,34 @@ const Menjelajah = () => {
         <Card type="feedback" />
         <Card type="feedback" />
       </Section>
-      <Section title="Popular Destination">
+      <Section title="Popular Destination" useArrows>
         <Card
-          type="explore"
+          type="destination"
           to="/"
           title="Discover New Experiences"
-          description="Get ready to discover new experiences whether their culture habits, culinary, or how they live."
+          place="Istanbul, Turkey"
+          rating="4.5"
         />
         <Card
-          type="explore"
+          type="destination"
           to="/"
           title="Discover New Experiences"
-          description="Get ready to discover new experiences whether their culture habits, culinary, or how they live."
+          place="Istanbul, Turkey"
+          rating="4.5"
         />
         <Card
-          type="explore"
+          type="destination"
           to="/"
           title="Discover New Experiences"
-          description="Get ready to discover new experiences whether their culture habits, culinary, or how they live."
+          place="Istanbul, Turkey"
+          rating="4.5"
+        />
+        <Card
+          type="destination"
+          to="/"
+          title="Discover New Experiences"
+          place="Istanbul, Turkey"
+          rating="4.5"
         />
       </Section>
       <Section
