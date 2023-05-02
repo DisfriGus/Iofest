@@ -3,6 +3,7 @@ import Navbar from '../../Component/Navbar/Navbar'
 import Section from '../../Component/Section'
 import Card from '../../Component/Card'
 import Footer from '../../Component/Footer/Footer'
+
 const Blog = () => {
   return (
     <div>
@@ -29,7 +30,7 @@ const Blog = () => {
             
           </Section>
           <Section title="Our Recommendation" className="w-1/3">
-              <div>
+              <div className='flex flex-col gap-10'>
                 <Card type="hero"/>
                 <Card type="hero"/>
                 <Card type="hero"/>

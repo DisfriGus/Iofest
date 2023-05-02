@@ -4,6 +4,7 @@ import Exploration from './Pages/Exploration/Exploration';
 import Recomendation from './Pages/Recomendation/Recomendation';
 import About from './Pages/About/About';
 import Blog from './Pages/Blog/Blog';
+import SearchDetail from './Pages/SearchDetail';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/Recomendation' element={<div><Recomendation/></div>}/>
         <Route path='/Blog' element={<div><Blog/></div>}/>
         <Route path='/About' element={<div><About/></div>}/>
+        <Route path='/SearchDetail' element={<SearchDetail />}/>
       </Routes>
     </BrowserRouter>
   );
