@@ -1,25 +1,25 @@
 {
-    "explore":[
-        {
-            "image":{
-                "url":"/iofest/src/Assets/Rectangle 15.png"
-            },
-            "title":"Discover New Experiences",
-            "description": "Get ready to discover new experiences whether their culture habits, culinary, or how they live."
-        },
-        {
-            "image":{
-                "url":"'/iofest/src/Assets/Rectangle 16.png'"
-            },
-            "title":"180 + Countries Destination",
-            "description":"Over 180 countries available to be visited by YOU! Get ready to take the journey on new level."
-        },
-        {
-            "image":{
-                "url":"'/iofest/src/Assets/Rectangle 17.png'"
-            },
-            "title":"Taste on Traditional Food",
-            "description":"Enthusiast on others culinary? We have gathered all the recommendation of traditional foods just for you."
-        }
-    ]
+  "explore": [
+    {
+      "image": {
+        "url": "https://images.unsplash.com/photo-1642378327252-c235b8c60824?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dGFyaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+      },
+      "title": "Discover New Experiences",
+      "description": "Get ready to discover new experiences whether their culture habits, culinary, or how they live."
+    },
+    {
+      "image": {
+        "url": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHlyYW1pZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+      },
+      "title": "180 + Countries Destination",
+      "description": "Over 180 countries available to be visited by YOU! Get ready to take the journey on new level."
+    },
+    {
+      "image": {
+        "url": "https://images.unsplash.com/photo-1590330813083-fc22d4b6a48c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dHJhZGl0aW9uYWwlMjBmb29kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+      },
+      "title": "Taste on Traditional Food",
+      "description": "Enthusiast on others culinary? We have gathered all the recommendation of traditional foods just for you."
+    }
+  ]
 }

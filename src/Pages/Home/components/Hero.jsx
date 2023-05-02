@@ -28,8 +28,20 @@ const Hero = () => {
           </button>
         </div>
         <div className="flex w-full gap-10 max-sm:flex-col">
-          <Card type="hero" />
-          <Card type="hero" />
+          <Card
+            type="hero"
+            minutes="5 MIN READ"
+            place="International"
+            title="5 Recommends places to go in 2023 as a couple"
+            description="Santorini, Greece: With its stunning views, romantic sunsets, and charming whitewashed buildings"
+          />
+          <Card
+            type="hero"
+            minutes="10 MIN READ"
+            place="Local"
+            title="Welcome Heads of Delegation of the G20 Summit"
+            description="Malesuada vitae ante erat, donec gravida malesuada mus condimentum risus."
+          />
         </div>
       </div>
       <img src={Glamping} className=" h-[712px] max-sm:hidden" />

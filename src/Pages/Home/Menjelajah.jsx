@@ -13,7 +13,7 @@ import Hero from "./components/Hero";
 import Footer from "../../Component/Footer/Footer";
 import feedbacks from "../../Data/Feedback.json";
 import destionations from "../../Data/Destination.json";
-
+import explorations from "../../Data/Explore.json";
 const Menjelajah = () => {
   return (
     <div>
@@ -24,24 +24,15 @@ const Menjelajah = () => {
         title="Explore Different Cultures Across the Globe 🌎"
         description="Expand your Worldview by enjoy various kinds of culture, diversity, culinary and natural beauty that will make you fall in love"
       >
-        <Card
-          type="explore"
-          to="/"
-          title="Discover New Experiences"
-          description="Get ready to discover new experiences whether their culture habits, culinary, or how they live."
-        />
-        <Card
-          type="explore"
-          to="/"
-          title="Discover New Experiences"
-          description="Get ready to discover new experiences whether their culture habits, culinary, or how they live."
-        />
-        <Card
-          type="explore"
-          to="/"
-          title="Discover New Experiences"
-          description="Get ready to discover new experiences whether their culture habits, culinary, or how they live."
-        />
+        {explorations.explore.map((val) => (
+          <Card
+            type="explore"
+            to="/blog"
+            src={val.image.url}
+            title={val.title}
+            description={val.description}
+          />
+        ))}
       </Section>
       <Section
         className="bg-[#F7F8FB]"
