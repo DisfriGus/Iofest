@@ -3,11 +3,11 @@ import { IconMapPin, IconMapPinFilled } from '@tabler/icons-react';
 import React from 'react';
 import { Link } from "react-router-dom";
 
-const Destination = ({title, place, rating, to}) => {
+const Destination = ({title, place, rating, to, className}) => {
   return (
     <Link
       to={to}
-      className="flex flex-none flex-col w-[350px] group hover:cursor-pointer max-sm:items-center gap-2"
+      className={`flex flex-none flex-col w-[350px] group hover:cursor-pointer max-sm:items-center gap-2 ${className}`}
     >
       <img
         className="w-[350px] h-[350px] rounded-md bg-red-300 mb-4 object-cover"
