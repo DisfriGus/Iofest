@@ -9,12 +9,9 @@ import {
   IconBrandInstagram,
   IconBrandReddit,
 } from "@tabler/icons-react";
-<<<<<<< HEAD
 import Hero from './components/Hero';
 import Footer from "../../Component/Footer/Footer";
-=======
-import Hero from "./components/Hero";
->>>>>>> d4237bd (add  some components)
+
 
 const Menjelajah = () => {
   return (

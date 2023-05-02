@@ -1,7 +1,8 @@
 import React from 'react'
 import Navbar from '../../Component/Navbar/Navbar'
 import Section from '../../Component/Section'
-import bgImageExploration from '../../Assets/Rectangle 27.png'
+import Card from "../../Component/Card";
+
 const Exploration = () => {
   return (
     <div>
@@ -17,8 +18,35 @@ const Exploration = () => {
               </div>
           </div>
         </Section>
-        <Section >
-          
+        <Section title = "Popular Search" useArrows>
+        <Card
+          type="destination"
+          to="/"
+          title="Discover New Experiences"
+          place="Istanbul, Turkey"
+          rating="4.5"
+        />
+        <Card
+          type="destination"
+          to="/"
+          title="Discover New Experiences"
+          place="Istanbul, Turkey"
+          rating="4.5"
+        />
+        <Card
+          type="destination"
+          to="/"
+          title="Discover New Experiences"
+          place="Istanbul, Turkey"
+          rating="4.5"
+        />
+        <Card
+          type="destination"
+          to="/"
+          title="Discover New Experiences"
+          place="Istanbul, Turkey"
+          rating="4.5"
+        />
         </Section>
       </div>
     </div>
