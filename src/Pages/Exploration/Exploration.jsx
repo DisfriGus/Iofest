@@ -3,6 +3,7 @@ import Navbar from '../../Component/Navbar/Navbar'
 import Section from '../../Component/Section'
 import Card from "../../Component/Card";
 import Footer from '../../Component/Footer/Footer';
+import destionations from "../../Data/Destination.json";
 
 const Exploration = () => {
   return (
@@ -19,36 +20,18 @@ const Exploration = () => {
               </div>
           </div>
         </Section>
-        <Section title = "Popular Search" useArrows className="max-sm:hidden" >
-        <Card
-          type="destination"
-          to="/"
-          title="Discover New Experiences"
-          place="Istanbul, Turkey"
-          rating="4.5"        
-        />
-        <Card
-          type="destination"
-          to="/"
-          title="Discover New Experiences"
-          place="Istanbul, Turkey"
-          rating="4.5"
-        />
-        <Card
-          type="destination"
-          to="/"
-          title="Discover New Experiences"
-          place="Istanbul, Turkey"
-          rating="4.5"
-        />
-        <Card
-          type="destination"
-          to="/"
-          title="Discover New Experiences"
-          place="Istanbul, Turkey"
-          rating="4.5"
-        />
-        </Section>
+        <Section title="Popular Destination" useArrows>
+        {destionations.destination.map((val) => (
+          <Card
+            type="destination"
+            to="/"
+            src={val.image.url}
+            title={val.title}
+            place={val.place}
+            rating={val.rating}
+          />
+        ))}
+      </Section>
         <Section title="Popular Search" className='py-0 mt-[-80px] flex flex-col px-10  sm:hidden'>
           
         </Section>
