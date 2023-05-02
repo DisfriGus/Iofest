@@ -2,12 +2,11 @@ import React from "react";
 import Navbar from "../../Component/Navbar/Navbar";
 import Section from "../../Component/Section";
 import Card from "../../Component/Card";
-import Footer from '../../Component/Footer/Footer';
-import destionations from "../../Data/Destination.json";
-
+import Footer from "../../Component/Footer/Footer";
+import destinations from "../../Data/Destination.json";
 const Exploration = () => {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <div className="flex flex-col">
         <Section>
