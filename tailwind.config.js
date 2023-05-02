@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
         backgroundImage:{
-          'bgExploration': "url('/src/Assets/Rectangle 27.png')"
+          'bgExploration': "url('/src/Assets/Rectangle 27.png')",
+          'bgBlog': "url('/src/Assets/Rectangle 37.png')"
         }
     },
     fontFamily:{
