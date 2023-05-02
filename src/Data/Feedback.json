@@ -21,6 +21,20 @@
             },
             "title":"James Kim",
             "job":"VR Content Creator"
+        },
+        {
+            "image":{
+                "url":"/iofest/src/Assets/Ayu.png"
+            },
+            "title":"Ayu Lee",
+            "job":"Travel Content Creator"
+        },
+        {
+            "image":{
+                "url":"/iofest/src/Assets/Suzy.png"
+            },
+            "title":"Suzy Bae",
+            "job":"Photographer"
         }
         
     ] 
