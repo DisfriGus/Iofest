@@ -84,6 +84,13 @@ const Menjelajah = () => {
           place="Istanbul, Turkey"
           rating="4.5"
         />
+        <Card
+          type="destination"
+          to="/"
+          title="Discover New Experiences"
+          place="Istanbul, Turkey"
+          rating="4.5"
+        />
       </Section>
       <Section
         title="Join our community!"
