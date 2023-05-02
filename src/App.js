@@ -15,7 +15,7 @@ function App() {
         <Route path='/Recomendation' element={<div><Recomendation/></div>}/>
         <Route path='/Blog' element={<div><Blog/></div>}/>
         <Route path='/About' element={<div><About/></div>}/>
-        <Route path='/SearchDetail' element={<SearchDetail />}/>
+        <Route path='/place/:id' element={<SearchDetail />}/>
       </Routes>
     </BrowserRouter>
   );

@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../../Component/Navbar/Navbar";
 import { IconArrowLeft } from "@tabler/icons-react";
 import Section from "../../Component/Section";
 import Footer from "../../Component/Footer/Footer";
+import { useParams } from "react-router-dom";
+import destinations from "../../Data/Destination.json";
 
 const SearchDetail = () => {
+  const [place, setPlace] = useState(null);
+  const { id } = useParams();
+
+  useEffect(() => {
+    setPlace(destinations.destination.find((val) => val.id == id));
+  }, []);
   return (
     <div>
       <Navbar />
@@ -17,13 +25,13 @@ const SearchDetail = () => {
         </div>
         <div className="flex flex-col mb-10">
           <h5 className="subheading mb-2">Search Result</h5>
-          <h3 className="heading2">Florence, Italy</h3>
+          <h3 className="heading2">{place.place}</h3>
         </div>
         <div className="flex flex-row gap-6">
           <div className="flex w-full flex-col">
             <div className="flex">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!4v1683031356518!6m8!1m7!1sEVCck3E1HT3y2jyA2y_zzQ!2m2!1d43.77147962117579!2d11.2625362196426!3f94.491325!4f0!5f0.7820865974627469"
+                src={place.streetView}
                 width="100%"
                 className="mb-10"
                 height="450"
