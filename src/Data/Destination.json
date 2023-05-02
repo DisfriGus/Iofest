@@ -1,0 +1,36 @@
+{
+    "destination":[
+        {
+            "image":{
+                "url":"/iofest/src/Assets/Rectangle 9.png"
+            },
+            "title":"Mount Bromo",
+            "place":"East Java, Indonesia",
+            "rating":"4.8"
+        },
+        {
+            "image":{
+                "url":"/iofest/src/Assets/Rectangle 10.png"
+            },
+            "title":"Padar Island",
+            "place":"East Nusa Tenggara, Indonesia",
+            "rating":"4.7"
+        },
+        {
+            "image":{
+                "url":"/iofest/src/Assets/Rectangle 11.png"
+            },
+            "title":"Istanbul",
+            "place":"Marmara, Turkey",
+            "rating":"4.7"
+        },
+        {
+            "image":{
+                "url":"/iofest/src/Assets/Rectangle 12.png"
+            },
+            "title":"Imerovigli",
+            "place":"Santorini, Greece",
+            "rating":"4.7"
+        }
+    ] 
+}
