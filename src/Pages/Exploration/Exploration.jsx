@@ -3,7 +3,7 @@ import Navbar from "../../Component/Navbar/Navbar";
 import Section from "../../Component/Section";
 import Card from "../../Component/Card";
 import Footer from '../../Component/Footer/Footer';
-import destionations from "../../Data/Destination.json";
+import Destionations from "../../Data/Destination.json";
 
 const Exploration = () => {
   return (
@@ -31,7 +31,7 @@ const Exploration = () => {
           </div>
         </Section>
         <Section title="Popular Destination" useArrows>
-          {destinations.destination.map((val) => (
+          {Destionations.destination.map((val) => (
             <Card
               type="destination"
               to={`/place/${val.id}`}
@@ -42,7 +42,7 @@ const Exploration = () => {
             />
           ))}
         </Section>
-        <div className="flex flex-col max-sm:block hidden gap-[10px] mt-4 pl-10 mb-[] ">
+        <div className="flex flex-col max-sm:block sm:hidden gap-[10px] mt-4 pl-10 mb-[] ">
           <p className="border-b-2">Florence, Italy</p>
           <p className="border-b-2">Istanbul, Turkey</p>
           <p className="border-b-2">Komodo Island, Indoenesia</p>
@@ -55,4 +55,4 @@ const Exploration = () => {
   );
 };
 
-export default Exploration;
+export default Exploration

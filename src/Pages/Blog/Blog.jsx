@@ -13,7 +13,7 @@ const Blog = () => {
           <Section title="Blog Menjelajah" className='w-2/3 '>
             <div>
               <div className='border w-[970px] h-[460px] bg-bgBlog pl-[42px] flex flex-col justify-end pb-[52px] max-sm:bg-none max-sm:w-[333px] max-sm:border-none max-sm:pl-0'>
-                <img src={Beach} alt="" />
+                <img src={Beach} alt="" className='sm:hidden'/>
                 <h5 className='subtitle1 text-white max-sm:text-[#161C2D]'>POPULAR DESTINATION</h5>
                 <h2 className='heading2 text-white max-sm:text-[#161C2D]'>5 Must-Visit Beaches for a Relaxing Vacation</h2>
               </div>
