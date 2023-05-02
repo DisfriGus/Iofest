@@ -63,7 +63,7 @@ const Menjelajah = () => {
         {destionations.destination.map((val) => (
           <Card
             type="destination"
-            to="/"
+            to={`/place/${val.id}`}
             src={val.image.url}
             title={val.title}
             place={val.place}

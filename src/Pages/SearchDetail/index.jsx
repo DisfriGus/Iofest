@@ -3,12 +3,13 @@ import Navbar from "../../Component/Navbar/Navbar";
 import { IconArrowLeft } from "@tabler/icons-react";
 import Section from "../../Component/Section";
 import Footer from "../../Component/Footer/Footer";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import destinations from "../../Data/Destination.json";
 
 const SearchDetail = () => {
   const [place, setPlace] = useState(null);
   const { id } = useParams();
+  const navigate = useNavigate();
 
   useEffect(() => {
     setPlace(destinations.destination.find((val) => val.id == id));
@@ -16,22 +17,22 @@ const SearchDetail = () => {
   return (
     <div>
       <Navbar />
-      <div className="py-28 px-56">
-        <div className="flex flex-row items-center gap-2 mb-4">
-          <button className="bg-[#F7F8FB] w-[50px] h-[50px] flex items-center justify-center rounded-full">
+      <div className="py-28 w-full px-56 max-sm:py-10 max-sm:px-6">
+        <div className="flex flex-row w-full items-center gap-2 mb-4">
+          <button onClick={() => navigate(-1)} className="bg-[#F7F8FB] w-[50px] h-[50px] flex items-center justify-center rounded-full">
             <IconArrowLeft size={24} color={"#000"} />
           </button>
           <h5 className="subHeading">Back To Homepage</h5>
         </div>
-        <div className="flex flex-col mb-10">
+        <div className="flex w-full flex-col mb-10">
           <h5 className="subheading mb-2">Search Result</h5>
-          <h3 className="heading2">{place.place}</h3>
+          <h3 className="heading2">{place?.place || "loading"}</h3>
         </div>
-        <div className="flex flex-row gap-6">
+        <div className="flex flex-row gap-6 max-sm:flex-col">
           <div className="flex w-full flex-col">
             <div className="flex">
               <iframe
-                src={place.streetView}
+                src={place?.streetView}
                 width="100%"
                 className="mb-10"
                 height="450"
@@ -66,7 +67,7 @@ const SearchDetail = () => {
               </p>
             </div>
           </div>
-          <div className="flex w-1/3">
+          <div className="flex w-1/3 max-sm:w-full">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.0605313878887!2d11.260490717443849!3d43.77160229999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132a5406089c9b41%3A0xd665440515d04583!2sVia%20Pietrapiana%2C%20112%2C%2050122%20Firenze%20FI%2C%20Italia!5e0!3m2!1sid!2sid!4v1683034087303!5m2!1sid!2sid"
               width="600"
