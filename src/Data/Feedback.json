@@ -1,0 +1,27 @@
+{
+    "feedback":[
+        {
+            "image":{
+                "url":"/iofest/src/Assets/Sarah.png"
+            },
+            "name":"Sarah Azhar",
+            "job":"Traveler Enthusiast"
+            
+        },
+        {
+            "image":{
+                "url":"/iofest/src/Assets/Michael.png"
+            },
+            "name":"Michael Chen",
+            "job":"Cultural Heritage Specialist"
+        },
+        {
+            "image":{
+                "url":"/iofest/src/Assets/James.png"
+            },
+            "title":"James Kim",
+            "job":"VR Content Creator"
+        }
+        
+    ] 
+}
