@@ -1,14 +1,23 @@
 {
     "explore":[
         {
+            "image":{
+                "url":"/iofest/src/Assets/Rectangle 15.png"
+            },
             "title":"Discover New Experiences",
             "description": "Get ready to discover new experiences whether their culture habits, culinary, or how they live."
         },
         {
+            "image":{
+                "url":"'/iofest/src/Assets/Rectangle 16.png'"
+            },
             "title":"180 + Countries Destination",
             "description":"Over 180 countries available to be visited by YOU! Get ready to take the journey on new level."
         },
         {
+            "image":{
+                "url":"'/iofest/src/Assets/Rectangle 17.png'"
+            },
             "title":"Taste on Traditional Food",
             "description":"Enthusiast on others culinary? We have gathered all the recommendation of traditional foods just for you."
         }
