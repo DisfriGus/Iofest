@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Component/Navbar/Navbar'
 import Section from '../../Component/Section'
 import Card from "../../Component/Card";
+import Footer from '../../Component/Footer/Footer';
 
 const Exploration = () => {
   return (
@@ -49,6 +50,7 @@ const Exploration = () => {
         />
         </Section>
       </div>
+      <Footer/>
     </div>
   )
 }
