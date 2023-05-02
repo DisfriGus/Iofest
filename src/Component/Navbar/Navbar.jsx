@@ -21,9 +21,6 @@ const Navbar = () => {
             <NavLink  to='/Exploration' className={({isActive}) => {
                 return `subtitle1 ${isActive ? "text-[#2257DF] font-bold" : "text-[#4E5568] font-normal "}`;
             }}>Exploration</NavLink>
-            <NavLink  to='/Recomendation' className={({isActive}) => {
-                return `subtitle1 ${isActive ? "text-[#2257DF] font-bold" : "text-[#4E5568] font-normal "}`;
-            }}>Recomendation</NavLink>
             <NavLink  to='/Blog' className={({isActive}) => {
                 return `subtitle1 ${isActive ? "text-[#2257DF] font-bold" : "text-[#4E5568] font-normal "}`;
             }}>Blog</NavLink>

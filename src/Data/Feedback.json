@@ -1,41 +1,28 @@
 {
-    "feedback":[
-        {
-            "image":{
-                "url":"/iofest/src/Assets/Sarah.png"
-            },
-            "name":"Sarah Azhar",
-            "job":"Traveler Enthusiast"
-            
-        },
-        {
-            "image":{
-                "url":"/iofest/src/Assets/Michael.png"
-            },
-            "name":"Michael Chen",
-            "job":"Cultural Heritage Specialist"
-        },
-        {
-            "image":{
-                "url":"/iofest/src/Assets/James.png"
-            },
-            "title":"James Kim",
-            "job":"VR Content Creator"
-        },
-        {
-            "image":{
-                "url":"/iofest/src/Assets/Ayu.png"
-            },
-            "title":"Ayu Lee",
-            "job":"Travel Content Creator"
-        },
-        {
-            "image":{
-                "url":"/iofest/src/Assets/Suzy.png"
-            },
-            "title":"Suzy Bae",
-            "job":"Photographer"
-        }
-        
-    ] 
+  "feedback": [
+    {
+      "image": {
+        "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+      },
+      "name": "Sarah Azhar",
+      "job": "Traveler Enthusiast",
+      "message": "I absolutely loved the articles on Menjelajah Culture! The stunning images and detailed descriptions of each destination made me feel like I was there myself."
+    },
+    {
+      "image": {
+        "url": "https://images.unsplash.com/photo-1682687982107-14492010e05e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+      },
+      "name": "Michael Chen",
+      "job": "Cultural Heritage Specialist",
+      "message": "As a history teacher, I found the historical articles on Menjelajah Culture to be extremely accurate and informative. Keep up the good work!"
+    },
+    {
+      "image": {
+        "url": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+      },
+      "name": "James Kim",
+      "job": "VR Content Creator",
+      "message": "I always recommend Menjelajah Culture to my clients who are interested in learning more about the places we visit. The website provides a great overview of each location and its cultural significance."
+    }
+  ]
 }

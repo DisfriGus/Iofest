@@ -1,36 +1,44 @@
 {
-    "destination":[
-        {
-            "image":{
-                "url":"/iofest/src/Assets/Rectangle 9.png"
-            },
-            "title":"Mount Bromo",
-            "place":"East Java, Indonesia",
-            "rating":"4.8"
-        },
-        {
-            "image":{
-                "url":"/iofest/src/Assets/Rectangle 10.png"
-            },
-            "title":"Padar Island",
-            "place":"East Nusa Tenggara, Indonesia",
-            "rating":"4.7"
-        },
-        {
-            "image":{
-                "url":"/iofest/src/Assets/Rectangle 11.png"
-            },
-            "title":"Istanbul",
-            "place":"Marmara, Turkey",
-            "rating":"4.7"
-        },
-        {
-            "image":{
-                "url":"/iofest/src/Assets/Rectangle 12.png"
-            },
-            "title":"Imerovigli",
-            "place":"Santorini, Greece",
-            "rating":"4.7"
-        }
-    ] 
+  "destination": [
+    {
+      "id": 1,
+      "image": {
+        "url": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YnJvbW98ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+      },
+      "streetView": "https://www.google.com/maps/embed?pb=!4v1683040920122!6m8!1m7!1sCAoSLEFGMVFpcFA5ODJRSHFWd0VPaU56d3RycHFQY2RlME90UTM4NzlnVmtDX3N6!2m2!1d-7.941157097795918!2d112.9553883871397!3f190.32345444675911!4f-4.177155135506226!5f0.7820865974627469",
+      "title": "Mount Bromo",
+      "place": "East Java, Indonesia",
+      "rating": "4.8"
+    },
+    {
+      "id": 2,
+      "image": {
+        "url": "/iofest/src/Assets/Rectangle 10.png"
+      },
+      "streetView": "https://www.google.com/maps/embed?pb=!4v1683040710601!6m8!1m7!1sCAoSLEFGMVFpcFBDZDdzZlBZN2xlQi1jY051dlhBTzBnQ3J4UEZrRXlFZ25PdDVi!2m2!1d-8.6803524!2d119.5567689!3f329.3796335078534!4f2.2948691099476406!5f0.4000000000000002",
+      "title": "Padar Island",
+      "place": "East Nusa Tenggara, Indonesia",
+      "rating": "4.7"
+    },
+    {
+      "id": 3,
+      "image": {
+        "url": "https://images.unsplash.com/photo-1527838832700-5059252407fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aXN0YW5idWx8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+      },
+      "streetView": "https://www.google.com/maps/embed?pb=!4v1683041021764!6m8!1m7!1s55ymRV4jUd7VDaJbiqrJ8A!2m2!1d41.00721877594128!2d28.97882881408549!3f32.704774049460795!4f9.706646794394516!5f0.7820865974627469",
+      "title": "Istanbul",
+      "place": "Marmara, Turkey",
+      "rating": "4.7"
+    },
+    {
+      "id": 4,
+      "image": {
+        "url": "https://images.unsplash.com/photo-1509940473077-6e7950fbb0be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80"
+      },
+      "streetView": "https://www.google.com/maps/embed?pb=!4v1683041194998!6m8!1m7!1scdT3vxfqq-SKwTNpGrPWOA!2m2!1d36.43303203361782!2d25.42404538093012!3f134.55578828303248!4f1.4543616383024869!5f0.7820865974627469",
+      "title": "Imerovigli",
+      "place": "Santorini, Greece",
+      "rating": "4.7"
+    }
+  ]
 }

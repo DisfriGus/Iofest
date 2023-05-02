@@ -9,9 +9,10 @@ import {
   IconBrandInstagram,
   IconBrandReddit,
 } from "@tabler/icons-react";
-import Hero from './components/Hero';
+import Hero from "./components/Hero";
 import Footer from "../../Component/Footer/Footer";
-
+import feedbacks from "../../Data/Feedback.json";
+import destionations from "../../Data/Destination.json";
 
 const Menjelajah = () => {
   return (
@@ -48,49 +49,27 @@ const Menjelajah = () => {
         useArrows
         description="Every travelers loves to make new friend, that’s why we give you community in case you need travelers buddy 😀"
       >
-        <Card type="feedback" />
-        <Card type="feedback" />
-        <Card type="feedback" />
-        <Card type="feedback" />
-        <Card type="feedback" />
-        <Card type="feedback" />
+        {feedbacks.feedback.map((val) => (
+          <Card
+            type="feedback"
+            src={val.image.url}
+            message={val.message}
+            name={val.name}
+            status={val.job}
+          />
+        ))}
       </Section>
       <Section title="Popular Destination" useArrows>
-        <Card
-          type="destination"
-          to="/"
-          title="Discover New Experiences"
-          place="Istanbul, Turkey"
-          rating="4.5"
-        />
-        <Card
-          type="destination"
-          to="/"
-          title="Discover New Experiences"
-          place="Istanbul, Turkey"
-          rating="4.5"
-        />
-        <Card
-          type="destination"
-          to="/"
-          title="Discover New Experiences"
-          place="Istanbul, Turkey"
-          rating="4.5"
-        />
-        <Card
-          type="destination"
-          to="/"
-          title="Discover New Experiences"
-          place="Istanbul, Turkey"
-          rating="4.5"
-        />
-        <Card
-          type="destination"
-          to="/"
-          title="Discover New Experiences"
-          place="Istanbul, Turkey"
-          rating="4.5"
-        />
+        {destionations.destination.map((val) => (
+          <Card
+            type="destination"
+            to="/"
+            src={val.image.url}
+            title={val.title}
+            place={val.place}
+            rating={val.rating}
+          />
+        ))}
       </Section>
       <Section
         title="Join our community!"
@@ -121,7 +100,7 @@ const Menjelajah = () => {
           max={40}
         />
       </Section>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
