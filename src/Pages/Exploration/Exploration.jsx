@@ -7,7 +7,7 @@ import Destionations from "../../Data/Destination.json";
 
 const Exploration = () => {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <div className="flex flex-col">
         <Section>
